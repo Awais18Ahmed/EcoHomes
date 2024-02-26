@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = $_POST["message"]; // Add the Message field
 
     // Build the email message
-    $to = "awaisahmed18may@gmail.com"; // Replace with your email address
+    $to = "contact@ecohomessolutions.co.uk"; // Replace with your email address
     $subject = "Eco Homes Solution Contact Form Submission from $name";
     $message = "Name: $name\n";
     $message .= "Email: $email\n";
